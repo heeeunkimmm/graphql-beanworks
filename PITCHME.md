@@ -3,10 +3,10 @@
 ---
 ## Agenda
 
-### 0 - Why?
-### 1 - What is GraphQL?
-### 2 - GraphQL at Beanworks
-### 3 - Implementing a Query
+### 1- Why?
+### 2- What is GraphQL?
+### 3- GraphQL at Beanworks
+### 4- Implementing a Query
 
 ---
 
