@@ -1,10 +1,12 @@
-# Let's Get Started
+# GraphQL at Beanworks
 
 ---
 
-## Add Some Slide Candy
+## Agenda
 
-![IMAGE](assets/img/presentation.png)
+### What is GraphQL?
+### GraphQL at Beanworks
+### Implementing a Query
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
