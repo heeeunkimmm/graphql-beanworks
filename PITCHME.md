@@ -37,3 +37,6 @@
   - Independent work for SyncTool, UI and API team
   - Even errors in GraphQL has HTTP status code 200 ✅
   @ulend
+  
+  ---
+  
