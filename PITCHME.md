@@ -51,3 +51,7 @@ Beanworks uses a symfony bundle named *overblog/GraphQLBundle* that comes with
 ### Let's implement a query together!
 
 ---
+### Syncs Query
+![IMAGE](assets/img/sync-activity.png)
+
+---
