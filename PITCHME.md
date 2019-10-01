@@ -9,4 +9,13 @@
 ### 4- Implementing a Query
 
 ---
+### Why this training session?
+@ul
+- It's pretty **awesome**
+- Not everyone's seen it
+- Espresso exclusively uses graphQL
+@ulend
+
+---
+### What is GraphQL?
 
