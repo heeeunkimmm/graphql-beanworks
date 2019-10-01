@@ -4,9 +4,9 @@
 
 ## Agenda
 
-### What is GraphQL?
-### GraphQL at Beanworks
-### Implementing a Query
+### 1. What is GraphQL?
+### 2. GraphQL at Beanworks
+### 3. Implementing a Query
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
