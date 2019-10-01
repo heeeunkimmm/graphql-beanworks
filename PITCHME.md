@@ -39,10 +39,15 @@
 @ulend
 
 ---
-#### GraphQL at Beanworks
+### GraphQL at Beanworks
 
 Beanworks uses a symfony bundle named *overblog/GraphQLBundle* that comes with
 @ul
 - GraphQL integration for PHP
 - GraphQL Relay
 @ulend
+
+---
+### Let's implement a query together!
+
+---
