@@ -23,20 +23,20 @@
 ---
 #### Declarative Query Language
  
- @ul[list-spaced-bullets]
- - Only get what you asked for
- - Many resources with one request thanks to references
- - Typed 🙏
- @ulend
+@ul[list-spaced-bullets]
+- Only get what you asked for
+- Many resources with one request thanks to references
+- Typed 🙏
+@ulend
  
- ---
- #### GraphQL vs REST API
- 
-  @ul[list-spaced-bullets]
-  - No more different endpoint! 
-  - Independent work for SyncTool, UI and API team
-  - Even errors in GraphQL has HTTP status code 200 ✅
-  @ulend
-  
-  ---
-  
+---
+#### GraphQL vs REST API
+
+@ul[list-spaced-bullets]
+- No more different endpoint! 
+- Independent work for SyncTool, UI and API team
+- Even errors in GraphQL has HTTP status code 200 ✅
+@ulend
+
+---
+yeaAH!
