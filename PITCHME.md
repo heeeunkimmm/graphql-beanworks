@@ -10,7 +10,7 @@
 
 ---
 ### Why this training session?
-@ul[list-spaced-bullets]
+@ul[list-spaced-bullets text-09]
 - It's pretty **awesome**
 - Not everyone's seen it
 - Espresso exclusively uses graphQL
