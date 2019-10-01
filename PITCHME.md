@@ -10,12 +10,30 @@
 
 ---
 ### Why this training session?
+
 @ul[list-spaced-bullets]
-- It's pretty **awesome**
+- GraphQL is pretty **awesome**
 - Not everyone's seen it
-- Espresso exclusively uses graphQL
+- Espresso & Remote Sync exclusively uses graphQL
 @ulend
 
 ---
 ### What is GraphQL?
 
+---
+#### Declarative Query Language
+ 
+ @ul[list-spaced-bullets]
+ - Only get what you asked for
+ - Many resources with one request thanks to references
+ - Typed 🙏
+ @ulend
+ 
+ ---
+ #### GraphQL vs REST API
+ 
+  @ul[list-spaced-bullets]
+  - No more different endpoint! 
+  - Independent work for SyncTool, UI and API team
+  - Even errors in GraphQL has HTTP status code 200 ✅
+  @ulend
