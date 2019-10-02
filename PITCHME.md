@@ -145,7 +145,8 @@ Beanworks uses a symfony bundle named *overblog/GraphQLBundle* that comes with
 ---
 ### Let's implement a mutation together!
 
----?image=assets/img/syncLegalEntity.png&size=auto 50%&position=bottom
+---
 ### requestSyncLegalEntity Mutation
+![IMAGE](assets/img/syncLegalEntity.png)
 
 ---
