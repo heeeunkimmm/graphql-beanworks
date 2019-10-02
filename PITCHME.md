@@ -21,10 +21,10 @@
 ### What is GraphQL?
 
 ---
-### Query Language used for requesting data on a server
+#### Query Language used for requesting data on a server
 
 ---
-### Only get what you asked for
+#### Only get what you asked for
 
 You asked for 
 ```json zoom-18
@@ -55,32 +55,67 @@ You get
         },
         {
           "display": "British Columbia"
-        },
-        {
-          "display": "Yukon"
-        },
-        {
-          "display": "New Zealand"
-        },
-        {
-          "display": "Manitoba"
-        },
-        {
-          "display": "Alaska"
-        },
-        {
-          "display": "New York"
-        },
-        {
-          "display": "Florida"
         }
       ]
     }
 ```
 
 ---
-- Many resources with one request thanks to references
-- Typed 🙏
+#### Many resources with one request thanks to references
+You asked for 
+```json zoom-18
+query  {
+  currentUser {
+    visibleLegalEntities {
+      display
+    }
+    permissions
+  }
+}
+```
+
+---
+You get 
+```json zoom-18
+{
+  "data": {
+    "currentUser": {
+      "visibleLegalEntities": [
+        {
+          "display": "Alberta"
+        },
+        {
+          "display": "Ontario"
+        },
+        ...
+      ],
+      "permissions": [
+        "approveAndReject",
+        "archivesView",
+        "batchApproveAndReject",
+        "beanboardView",
+        ...
+      ]
+    }
+  }
+}
+```
+
+---
+#### Typed 🙏
+```yaml zoom-18
+fields:
+  syncToolId:
+    type: ID!
+  legalEntityId:
+    type: ID!
+  lastSyncDate:
+    type: DateTime
+  poReceivingSupport:
+    type: Boolean!
+  poReceivingSyncStartDate:
+    type: DateTime
+```
  
 ---
 #### GraphQL vs REST API
