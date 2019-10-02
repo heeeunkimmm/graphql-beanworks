@@ -21,13 +21,65 @@
 ### What is GraphQL?
 
 ---
-#### Declarative Query Language
- 
-@ul[list-spaced-bullets]
-- Only get what you asked for
+#### Query Language used for requesting data on a server
+
+---
+#### Only get what you asked for
+
+You asked for 
+```json zoom-18
+query  {
+  currentUser {
+    visibleLegalEntities {
+      display
+    }
+  }
+}
+```
+
+You get 
+```json zoom-18
+{
+  "data": {
+    "currentUser": {
+      "visibleLegalEntities": [
+        {
+          "display": "Alberta"
+        },
+        {
+          "display": "Ontario"
+        },
+        {
+          "display": "Quebec"
+        },
+        {
+          "display": "British Columbia"
+        },
+        {
+          "display": "Yukon"
+        },
+        {
+          "display": "New Zealand"
+        },
+        {
+          "display": "Manitoba"
+        },
+        {
+          "display": "Alaska"
+        },
+        {
+          "display": "New York"
+        },
+        {
+          "display": "Florida"
+        }
+      ]
+    }
+```
+
+---
 - Many resources with one request thanks to references
 - Typed 🙏
-@ulend
  
 ---
 #### GraphQL vs REST API
@@ -48,10 +100,10 @@ Beanworks uses a symfony bundle named *overblog/GraphQLBundle* that comes with
 @ulend
 
 ---
-### Let's implement a query together!
+### Let's implement a mutation together!
 
 ---
 ### Syncs Query
-![IMAGE](assets/img/sync-activity.png)
+![IMAGE](assets/img/syncLegalEntity.png)
 
 ---
