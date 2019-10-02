@@ -156,4 +156,36 @@ Beanworks uses a symfony bundle named *overblog/GraphQLBundle* that comes with
 ### requestSyncLegalEntity Mutation
 
 ---
+### Define the Schema
 
+---
+### We need inputs
+@ul
+- Legal Entity
+- SyncTool
+- Last Sync Date
+- PO Receiving Support
+- Po Sync Start Date
+@ulend
+
+---
+### We need to decide on type
+@ul
+- Legal Entity - ID
+- SyncTool - ID
+- Last Sync Date - DateTime
+- PO Receiving Support - Boolean
+- Po Sync Start Date - DateTime
+@ulend
+
+---
+### We need to decide on response
+Sync
+@ul
+- Status
+- SyncTool Nickname
+- Requested By
+- Requested Time
+@ulend
+
+---
