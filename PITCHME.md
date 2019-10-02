@@ -6,7 +6,7 @@
 ### 1- Why?
 ### 2- What is GraphQL?
 ### 3- GraphQL at Beanworks
-### 4- Implementing a Query
+### 4- Implementing a Mutation
 
 ---
 ### Why this training session?
@@ -121,7 +121,7 @@ fields:
 #### GraphQL vs REST API
 
 ---
-#### No more different endpoint!
+#### No more different endpoints!
 @ul
 - https://beandev.com/api/graphql/?rouid=D7946439EA2A068E5E9D06B6100DFA9A 
 @ulend
@@ -144,6 +144,13 @@ Beanworks uses a symfony bundle named *overblog/GraphQLBundle* that comes with
 
 ---
 ### Let's implement a mutation together!
+
+---
+### Query vs Mutation
+@ul
+- Query: SELECT operation
+- Mutation: INSERT/UPDATE/DELETE operation
+@ulend
 
 ---
 ### requestSyncLegalEntity Mutation
