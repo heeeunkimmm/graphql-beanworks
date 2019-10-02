@@ -21,10 +21,10 @@
 ### What is GraphQL?
 
 ---
-#### Query Language used for requesting data on a server
+### Query Language used for requesting data on a server
 
 ---
-#### Only get what you asked for
+### Only get what you asked for
 
 You asked for 
 ```json zoom-18
