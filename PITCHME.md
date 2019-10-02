@@ -120,11 +120,18 @@ fields:
 ---
 #### GraphQL vs REST API
 
-@ul[list-spaced-bullets]
-- No more different endpoint! 
-- Independent work for SyncTool, UI and API team
-- Even errors in GraphQL has HTTP status code 200 ✅
+---
+#### No more different endpoint!
+@ul
+- https://beandev.com/api/graphql/?rouid=D7946439EA2A068E5E9D06B6100DFA9A 
 @ulend
+
+---
+#### Independent work for SyncTool, UI and API team
+
+---
+### Even errors in GraphQL has HTTP status code 200 ✅
+![IMAGE](assets/img/status200.png)
 
 ---
 ### GraphQL at Beanworks
@@ -139,7 +146,7 @@ Beanworks uses a symfony bundle named *overblog/GraphQLBundle* that comes with
 ### Let's implement a mutation together!
 
 ---
-### Syncs Query
+### requestSyncLegalEntity Mutation
 ![IMAGE](assets/img/syncLegalEntity.png)
 
 ---
