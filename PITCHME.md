@@ -149,3 +149,4 @@ Beanworks uses a symfony bundle named *overblog/GraphQLBundle* that comes with
 ### requestSyncLegalEntity Mutation
 
 ---
+
